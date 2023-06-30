@@ -1,0 +1,13 @@
+<h1>HOME</h1>
+<section class="container">
+    {{#each products}}
+        <section class="product">
+            <hr>
+            <h2> id: {{this.id}}</h2>
+            <h2>Title: {{this.title}}</h2>
+            <h3>Description: <br>{{this.description}}</h3>
+            <h4>Price: {{this.price}}</h4>
+            <h5>Category: {{this.category}}</h5>
+        </section>
+    {{/each}}
+</section>
